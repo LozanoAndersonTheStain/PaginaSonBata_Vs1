@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+*{
+    margin: 0;
+    color: cornflowerblue;
+}
+
+.cuerpo{
+    background-color: black;    
+}
+
+.Menú{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.enlases{
+    color: cyan;
+    font-size: 20px;
+    text-decoration: none;
+}
+.Logo{
+    width: 400px;
+}
+.Titulo{
+    font-family: 'Fascinate', cursive;
+    text-align: center;
+    
+}
+
+.subparrafo{
+    font-family: cursive;
+    display: flex;
+    color: darkorange;
+    justify-content: center;
+}
+
+.parrafo{
+    font-family: cursive;
+    display: flex;
+    color: darkorange;
+    text-align: center;
+}
+
+.titulo2{
+    text-align: center;
+}
+
+.imagenes{
+    width: 380px;
+    height: 380px;
+}
+
+.elementos{
+    margin: 10px;
+    border-radius: 30;
+    border: 1px solid rgb(6, 174, 240);
+    padding: 10px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.pie_pagina{
+    display: flex;
+    justify-content: center;
+}
+
+.icono{
+    background-color: rgb(0, 81, 255);
+    width: 100px;
+    font-size: 50px;
+    color: #000000;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.comunicacion{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
